@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrepper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width:100%;
+    position: fixed;
+    background-color: aliceblue;
+    text-transform: capitalize;
+}
+.travel2 ol{
+    display: flex;
+    font-size: 20px;
+    
+    
+}
+.travel2 ol li{
+    justify-content: space-around;
+    list-style: none;
+    padding: 40px;
+    color:black;
+    /* text-transform: capitalize; */
+    
+}
+ol li a{
+    text-decoration: none;
+   
+}
+.travel3{
+    background-image:url(imagesss/home-slide-1.jpg);
+    text-align: center;
+    color:bisque;
+    padding: 200px;
+    font-size: 45px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.travel3 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: beige;
+    padding: 0 10px;
+    
+    
+}
+.travel3 a:hover{
+    background-color: black;
+    border-radius: 10px;
+    
+
+}
+.our{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0;
+    font-size: 20px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about1 img{
+    width:400px;
+    height: 400px;
+
+}
+.about2{
+    background-color: rgb(183, 177, 177);
+    width:400px;
+    height: 300px;
+    padding: 40px;
+    
+}
+.about2 p{
+    margin:20px 0;
+}
+.about2 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:bisque;
+    background-color: black;
+    border-radius: 10px;
+    padding:20px;
+    display: inline-block;
+}
+.about2 a:hover{
+    background-color: blueviolet;
+}
+.pack{
+    text-align: center;
+    height: 70px;
+    background-color: rgb(199, 191, 191);
+    padding:15px; 
+    margin-top:50px ;
+    text-transform: uppercase;
+}
+.taj{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(199, 191, 191)   ;
+  
+    
+    
+}
+.taj1 img{
+     height: 254px;
+    width:400px; 
+}
+.img{
+    height: 250px;
+}
+
+.taj1 .adventure{
+    border:1px solid black;
+    padding:30px;
+    text-align: center;
+    width:400px;
+    border-top:none;
+    background-color:white;
+}
+.adventure p{
+    margin:20px 0;
+   
+}
+.adventure a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:bisque;
+    background-color: black;
+    padding:10px;
+    border-radius: 5px;
+}
+.adventure a:hover{
+    background-color: blueviolet;
+
+}
+.load{
+    background-color: rgb(201, 190, 190);
+}
+.load a{
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:beige;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 618px;
+    
+}
+.load a:hover{
+    background-color: blueviolet;
+}
+.upto{
+    text-align: center;
+    padding:100px 0;
+}
+.upto p{
+    margin:20px;
+}
+.upto a{
+    background-color: black;
+    color:bisque;
+    padding:10px;
+    border-radius: 10px;
+    margin:40px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.upto a:hover{
+    background-color: blueviolet;
+}
+.quick{
+    display: flex;
+    justify-content: space-around;
+    /* font-size: 25px; */
+   
+    align-items: center;
+    height: 300px;
+    /* padding:0 100px; */
+    
+}
+.quickes{
+    background-image: url(imagesss/footer-bg.jpg);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.quick1{
+    color:beige;
+    
+}
+.quick1 li{
+    list-style: none;
+}
+.quick1 a{
+    color:bisque;
+    /* font-size: 25px; */
+    
+}
+.quickess{
+    font-size: 25px;
+    padding:0 140px;
+}
+
+
+
+.quick2{
+    color:beige;
+    
+}
+.quick2 li{
+    list-style: none;
+}
+.quick2 a{
+    color:bisque;
+    
+    
+}
+.created{
+    text-align: center;
+    color:beige;
+    padding:20px 0;
+    text-transform: capitalize;
+}
+.created span{
+    color:purple;
+}
+i{
+    color: blueviolet;
+    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    /* padding:70px; */
+    
+    align-items: center;
+    
+    
+    
+}
+.icons:hover{
+    background-color: black;
+    
+}
+.icons i{
+    color: white;
+    font-size: 100px;
+    
+    
+}
+.icons{
+    border:1px solid black;
+    background-color:purple;
+    width:200px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin:5px;
+    padding:40px;
+   
+}
+.ico .icons{
+    width:200px;
+    height: 200px;
+    margin: 30px 0 100px 150px;
+}
+
+
+
